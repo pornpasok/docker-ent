@@ -8,6 +8,10 @@ docker-compose \
     up -d
 ```
 
-Enterprise Search: http://localhost:3002/
+- Elasticsearch: http://localhost:9200/
+u: elastic
+p: ELASTIC_PASSWORD (changeme)
+
+- Enterprise Search: http://localhost:3002/
 u: enterprise_search
 p: ELASTIC_PASSWORD (changeme)
